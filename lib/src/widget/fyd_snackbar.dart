@@ -15,8 +15,9 @@ void fydSnack({
       text: message,
       weight: FontWeight.w500,
     ),
-    duration: const Duration(seconds: 2),
+    duration: const Duration(milliseconds: 1500),
     snackPosition: snackposition,
     isDismissible: true,
+    padding:const EdgeInsets.all(0)
   );
 }
