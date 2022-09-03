@@ -18,6 +18,6 @@ void fydSnack({
     duration: const Duration(milliseconds: 1500),
     snackPosition: snackposition,
     isDismissible: true,
-    padding:const EdgeInsets.all(0)
+    // padding:const EdgeInsets.all(6)
   );
 }
