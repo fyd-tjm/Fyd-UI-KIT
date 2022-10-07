@@ -22,80 +22,80 @@ class FydText extends StatelessWidget {
   FydText.d1white(
       {required this.text,
       this.weight = FontWeight.bold,
-      this.color = Colors.transparent})
-      : style = display38.copyWith(color: fydTWhite, fontWeight: weight);
+      this.color = fydTWhite})
+      : style = display38.copyWith(color: color, fontWeight: weight);
 
   FydText.d2white(
       {required this.text,
       this.weight = FontWeight.bold,
-      this.color = Colors.transparent})
-      : style = display34.copyWith(color: fydTWhite, fontWeight: weight);
+      this.color = fydTWhite})
+      : style = display34.copyWith(color: color, fontWeight: weight);
 
   FydText.d3white(
       {required this.text,
       this.weight = FontWeight.bold,
-      this.color = Colors.transparent})
-      : style = display30.copyWith(color: fydTWhite, fontWeight: weight);
+      this.color = fydTWhite})
+      : style = display30.copyWith(color: color, fontWeight: weight);
 
   // display-black
 
   FydText.d1black(
       {required this.text,
       this.weight = FontWeight.bold,
-      this.color = Colors.transparent})
-      : style = display38.copyWith(color: fydTBlack, fontWeight: weight);
+      this.color = fydTBlack})
+      : style = display38.copyWith(color: color, fontWeight: weight);
 
   FydText.d2black(
       {required this.text,
       this.weight = FontWeight.bold,
-      this.color = Colors.transparent})
-      : style = display34.copyWith(color: fydTBlack, fontWeight: weight);
+      this.color = fydTBlack})
+      : style = display34.copyWith(color: color, fontWeight: weight);
 
   FydText.d3black(
       {required this.text,
       this.weight = FontWeight.bold,
-      this.color = Colors.transparent})
-      : style = display30.copyWith(color: fydTBlack, fontWeight: weight);
+      this.color = fydTBlack})
+      : style = display30.copyWith(color: color, fontWeight: weight);
 
   // heading-white
 
   FydText.h1white(
       {required this.text,
       this.weight = FontWeight.w500,
-      this.color = Colors.transparent})
-      : style = heading22.copyWith(color: fydTWhite, fontWeight: weight);
+      this.color = fydTWhite})
+      : style = heading22.copyWith(color: color, fontWeight: weight);
 
   FydText.h2white(
       {required this.text,
       this.weight = FontWeight.w500,
-      this.color = Colors.transparent})
-      : style = heading20.copyWith(color: fydTWhite, fontWeight: weight);
+      this.color = fydTWhite})
+      : style = heading20.copyWith(color: color, fontWeight: weight);
 
   FydText.h3white(
       {required this.text,
       this.weight = FontWeight.w500,
-      this.color = Colors.transparent})
-      : style = heading18.copyWith(color: fydTWhite, fontWeight: weight);
+      this.color = fydTWhite})
+      : style = heading18.copyWith(color: color, fontWeight: weight);
 
   // heading-black
 
   FydText.h1black(
       {required this.text,
       this.weight = FontWeight.w500,
-      this.color = Colors.transparent})
-      : style = heading22.copyWith(color: fydTBlack, fontWeight: weight);
+      this.color = fydTBlack})
+      : style = heading22.copyWith(color: color, fontWeight: weight);
 
   FydText.h2black(
       {required this.text,
       this.weight = FontWeight.w500,
-      this.color = Colors.transparent})
-      : style = heading20.copyWith(color: fydTBlack, fontWeight: weight);
+      this.color = fydTBlack})
+      : style = heading20.copyWith(color: color, fontWeight: weight);
 
   FydText.h3black(
       {required this.text,
       this.weight = FontWeight.w500,
-      this.color = Colors.transparent})
-      : style = heading18.copyWith(color: fydTBlack, fontWeight: weight);
+      this.color = fydTBlack})
+      : style = heading18.copyWith(color: color, fontWeight: weight);
 
   // heading-grey
 
@@ -122,78 +122,78 @@ class FydText extends StatelessWidget {
   FydText.b1white(
       {required this.text,
       this.weight = FontWeight.normal,
-      this.color = Colors.transparent})
-      : style = body16.copyWith(color: fydTWhite, fontWeight: weight);
+      this.color = fydTWhite})
+      : style = body16.copyWith(color: color, fontWeight: weight);
 
   FydText.b2white(
       {required this.text,
       this.weight = FontWeight.normal,
-      this.color = Colors.transparent})
-      : style = body14.copyWith(color: fydTWhite, fontWeight: weight);
+      this.color = fydTWhite})
+      : style = body14.copyWith(color: color, fontWeight: weight);
 
   FydText.b3white(
       {required this.text,
       this.weight = FontWeight.normal,
-      this.color = Colors.transparent})
-      : style = body12.copyWith(color: fydTWhite, fontWeight: weight);
+      this.color = fydTWhite})
+      : style = body12.copyWith(color: color, fontWeight: weight);
 
   FydText.b4white(
       {required this.text,
       this.weight = FontWeight.normal,
-      this.color = Colors.transparent})
-      : style = body10.copyWith(color: fydTWhite, fontWeight: weight);
+      this.color = fydTWhite})
+      : style = body10.copyWith(color: color, fontWeight: weight);
 
   // body-black
 
   FydText.b1black(
       {required this.text,
       this.weight = FontWeight.normal,
-      this.color = Colors.transparent})
-      : style = body16.copyWith(color: fydTBlack, fontWeight: weight);
+      this.color = fydTBlack})
+      : style = body16.copyWith(color: color, fontWeight: weight);
 
   FydText.b2black(
       {required this.text,
       this.weight = FontWeight.normal,
-      this.color = Colors.transparent})
-      : style = body14.copyWith(color: fydTBlack, fontWeight: weight);
+      this.color = fydTBlack})
+      : style = body14.copyWith(color: color, fontWeight: weight);
 
   FydText.b3black(
       {required this.text,
       this.weight = FontWeight.normal,
-      this.color = Colors.transparent})
-      : style = body12.copyWith(color: fydTBlack, fontWeight: weight);
+      this.color = fydTBlack})
+      : style = body12.copyWith(color: color, fontWeight: weight);
 
   FydText.b4black(
       {required this.text,
       this.weight = FontWeight.normal,
-      this.color = Colors.transparent})
-      : style = body10.copyWith(color: fydTBlack, fontWeight: weight);
+      this.color = fydTBlack})
+      : style = body10.copyWith(color: color, fontWeight: weight);
 
   // body-grey
 
   FydText.b1grey(
       {required this.text,
       this.weight = FontWeight.normal,
-      this.color = Colors.transparent})
-      : style = body16.copyWith(color: fydTGrey, fontWeight: weight);
+      this.color = fydTGrey})
+      : style = body16.copyWith(color: color, fontWeight: weight);
 
   FydText.b2grey(
       {required this.text,
       this.weight = FontWeight.normal,
-      this.color = Colors.transparent})
-      : style = body14.copyWith(color: fydTGrey, fontWeight: weight);
+      this.color = fydTGrey})
+      : style = body14.copyWith(color: color, fontWeight: weight);
 
   FydText.b3grey(
       {required this.text,
       this.weight = FontWeight.normal,
-      this.color = Colors.transparent})
-      : style = body12.copyWith(color: fydTGrey, fontWeight: weight);
+      this.color = fydTGrey})
+      : style = body12.copyWith(color: color, fontWeight: weight);
 
   FydText.b4grey(
       {required this.text,
       this.weight = FontWeight.normal,
-      this.color = Colors.transparent})
-      : style = body10.copyWith(color: fydTGrey, fontWeight: weight);
+      this.color = fydTGrey})
+      : style = body10.copyWith(color: color, fontWeight: weight);
 
   @override
   Widget build(BuildContext context) {
